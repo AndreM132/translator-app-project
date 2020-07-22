@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <form method='POST' action=''>
+            <h1>
+                {{ form.hidden_tag() }}
+                {{ form.sentence.label }}
+                {{ form.sentence }}
+                <br>
+                {{ form.language.label }}
+                {{ form.language }}
+                <br>
+                {{ form.submit }}
+            <br>
+            <br>
+            </h1>
+            <br>
+            <br>
+            {{ langs }}
+            <br>
+        <h1>
+            {{ translation }}
+        </h1>
+    </form>
+    </body>
+</html>
